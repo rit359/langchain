@@ -1,0 +1,22 @@
+{
+  "name": "cls",
+  "version": "1.0.0",
+  "description": "this is testing project",
+  "main": "src/server.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon",
+    "start": "node dist/server.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/openai": "^0.0.14",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "langchain": "^0.0.208",
+    "pdf-parse": "^1.1.1"
+  }
+}
